@@ -1,0 +1,350 @@
+html{
+    height:100%;
+}
+body{
+    font-family:"Reem Kufi";
+    height:100%;
+
+}
+.hero{
+    background-color:#fff;
+    color:#161743;
+    height:100vh;
+    background:url('../img/background.png');
+}
+.navbar-default{
+    background: transparent !important;
+    border:0 !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #161743;
+    width: 5px;
+    height: 5px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-header{
+    padding:10px 70px !important;
+}
+.logo{
+    width: 100px; 
+    display: none !important;           
+}
+.logopc{
+    width:150px;
+}
+.navbar-right{
+    padding: 15px 60px !important;
+}
+.navbar-right li a{
+    margin-top: 10px;
+    color:#fff !important;
+}
+.start{
+    text-align:center;
+    margin:10px auto; 
+    border-radius:30px;
+    padding:5px 30px;
+    border:2px solid #161743;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),0 3px 8px rgba(0,0,0,0.3);
+    text-decoration: none;
+    color:#161743;
+}
+.start:hover,.start:focus{
+    text-decoration: none;
+    color:#161743;
+}
+.started{
+    margin-top:18px !important;
+    text-align:center;
+    border-radius:30px;
+    padding:5px 15px !important;
+    border:2px solid #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2),0 3px 8px rgba(0,0,0,0.3);
+    text-decoration: none;
+    color:#fff;
+}
+.welcome{
+    font-weight: bold;
+    margin-top:20vh;
+}
+.welcome-text{
+    width:70%;
+    margin-bottom:20px;
+}
+
+@media screen and (max-width:359px){
+    .hero{
+        background: url('../img/backgroundphone.png');
+        background-position: 5% ; 
+    }
+    .welcome{
+        font-size: 2em;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .welcome-text{
+        text-align: center;
+        width: 100%;
+    }
+    .start{
+        display: block;
+        text-align: center !important;
+        margin:0 auto !important;
+        width: 45%;
+    }
+    .navbar-right li a{
+        color:#161743 !important; 
+        text-align: center;
+        margin-top: 0 !important;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #fff;
+    }
+    .started{
+        box-shadow: 0 0 0;
+        
+        border:0;
+        color:#161743;
+    }
+}
+@media screen and (min-width:360px) and (max-width:375px){
+    .hero{
+        background: url('../img/backgroundphone.png');
+        background-position: 12% ;
+    }
+    .welcome{
+        font-size: 2.25em;
+        margin-top: -10px;
+        text-align: center;
+    }
+    .welcome-text{
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+    }
+    .start{
+        display: block;
+        text-align: center !important;
+        margin:0 auto !important;
+        width: 45%;
+    }
+    .navbar-right li a{
+        color:#161743 !important; 
+        text-align: center;
+        margin-top: 0 !important;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #fff;
+    }
+    .started{
+        box-shadow: 0 0 0;
+        
+        border:0;
+        color:#161743;
+    }
+}
+
+@media screen and (device-width:375px) and (device-height:812px){
+    .welcome{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:414px){
+    .hero{
+        background: url('../img/backgroundphone.png');
+        background-position: 12% ;
+    }
+    .welcome{
+        font-size: 2.25em;
+        margin-top: -10px;
+        text-align: center;
+    }
+    .welcome-text{
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+    }
+    .start{
+        display: block;
+        text-align: center !important;
+        margin:0 auto !important;
+        width: 45%;
+    }
+    .navbar-right li a{
+        color:#161743 !important; 
+        text-align: center;
+        margin-top: 0 !important;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #fff;
+    }
+    .started{
+        box-shadow: 0 0 0;
+        
+        border:0;
+        color:#161743;
+    }
+}
+
+@media screen and (min-width:415px) and (max-width:768px){
+    .hero{
+        background: url('../img/backgroundphone.png');
+        background-position: 22% ;
+    }
+    .welcome{
+        font-size: 3.5em;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .logo{
+        width: 100px !important;
+    }
+    .welcome-text{
+        text-align: center;
+        width: 100%;
+        font-size: 21px;
+    }
+    .start{
+        display: block;
+        text-align: center !important;
+        margin:0 auto !important;
+        width: 35%;
+        font-size: 21px;
+    }
+    .navbar-right li a{
+        color:#161743 !important; 
+        text-align: center;
+        margin-top: 0 !important;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #fff;
+    }
+    .started{
+        box-shadow: 0 0 0;
+        border:0;
+        color:#161743;
+    }
+}
+
+@media screen and (max-width:768px){
+    .navbar-header{
+        padding: 5px 0 !important; 
+    }
+    .navbar-brand{
+        padding: 5px 0 !important;
+    }
+    .logo{
+        width: 90px;
+        display:block !important;
+    }
+    .logopc{
+        display: none !important;
+    }
+    .navbar-right{
+        padding:5px !important;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    .hero{
+        background: url('../img/backgroundphone.png');
+        background-position: 32% ;
+    }
+    .welcome{
+        font-size: 4em;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .welcome-text{
+        text-align: center;
+        width: 100%;
+        font-size: 21px;
+    }
+    .start{
+        display: block;
+        text-align: center !important;
+        margin:0 auto !important;
+        width: 30%;
+        font-size: 21px;
+    }
+    .navbar-right li a{
+        color:#161743 !important; 
+        text-align: center;
+        margin-top: 10px ;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #fff;
+    }
+    .started{
+        box-shadow: 0 0 0;
+        border:0;
+        margin-top:20px !important;
+        color:#161743;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1024px){
+    body{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1367px) and (max-width:1440px){
+    .hero{
+        background: url('../img/backgroundmacbook.png') !important; 
+    }
+    .navbar-header{
+        padding:20px 115px !important;
+    }
+    .welcome{
+        font-size:3em;
+        margin-top:30vh;
+    }
+    .welcome-text{
+        font-size: 18px;
+        width: 80%;
+    }
+    .start{
+        font-size: 18px;
+        padding:5px 35px;
+    }
+}
+
+@media screen and (min-width:1441px) and (max-width:1920px){
+    .hero{
+        background: url('../img/backgroundmac.png') !important; 
+    }
+    .navbar-header{
+        padding:20px 115px !important;
+    }
+    .navbar-right li a{
+        margin-top: 30px;
+    }
+    .started{
+        margin-top: 38px !important;
+    }
+    .logopc{
+        width:200px;
+    }
+    .welcome{
+        font-size:4em;
+        margin-top:30vh;
+        display: block;
+    }
+    .col-md-pull-6 {
+        right: 70%;
+    }
+    .welcome-text{
+        font-size: 21px;
+        width: 100%;
+    }
+    .start{
+        font-size: 21px;
+        padding:5px 35px;
+    }
+}
